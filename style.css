@@ -1,0 +1,198 @@
+/* paleta de cores 1(#53227A) 2(#441a6a) 3(#36115a) 4(#270949) 5(#180039) */
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    padding: 10vh;
+    background-color: #52227ac0;
+}
+#menu-header{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+#menu-header li a{
+color: white;
+text-decoration: none;
+font-size: 13px;
+margin: 10px;
+}
+#menu-header li{
+    margin-left: 15px;
+    height: 22px;
+}
+#menu-header :hover {
+    color:#270949 ;
+    cursor: pointer;
+}
+/*sessao header */
+
+/*iniciando section 1*/
+#section{
+    padding: 30vh;
+    background: linear-gradient(180deg, #e6ebec 8.33%, rgb(57, 0, 83) 100%);
+    flex-wrap: wrap;
+}
+#section h2{
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.411);
+}
+#section p{
+    font-size: 40px;
+}
+#section button {
+padding: 20px;
+border-radius: 90px;
+width: 20vw;
+margin: 30px;
+color: rgb(201, 0, 228);
+border-color: #270949;
+cursor: pointer;
+}
+#section a button:hover{
+    background-color: #270949;
+    transition: 0.5s;
+    color: white;
+}
+
+/* iniciando section 2 do app */
+#section2{
+    padding: 70px;
+    background-color:rgb(57, 0, 83);
+    display:flex;
+    justify-content: space-around;
+
+}
+#section2 button{
+    padding: 20px;
+    font-size: 15px;
+    width: 20vw;
+    margin: 30px;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+cursor: pointer;
+border-color: #270949;
+}
+#section2 button:hover{
+    background-color: #270949;
+    transition: 0.8s;
+    color: white;
+}
+    #section2 p{
+        font-size: 40px;
+    }
+#section2 img{
+    display: flex;
+}
+#section2 img{
+    padding: 70px;
+    width: 30vw;
+    height: 20vw;
+    margin-left: 0px;
+    margin-top: -70px;
+}
+/*inciando section 3 */
+
+#section3{
+    background-color: gray;
+    padding: 30vh;
+    flex-wrap: wrap;
+    
+}
+#section3 h2 {
+font-size: 40px;
+margin-top: -20px;
+text-align: center;
+color: rgb(3, 3, 3);
+margin-bottom: 2rem;
+}
+#section3 p{
+    font-size: 2em;
+    margin-top: 30px;
+    text-align: justify;
+    color: rgb(5, 5, 5);
+}
+#section3 .text1{
+    text-align: center;
+}
+#section3 button{
+    padding: 10px;
+    border-radius: 50px;
+    width: 15vw;
+    border-color: #36115a;
+    margin: 60px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+#section3 button:hover{
+    background-color: #270949;
+    color: white;
+    transition: 0.5s;
+}
+.line{
+    margin-left: 50px;
+    width: 70%;
+}
+
+#section3 img{
+    margin-left: 10vw;
+    margin-top: 30px;
+    width: 50vw;
+}
+#section-cofre{
+    background: linear-gradient(180deg, #7f02a5a4 8.33%, rgba(118, 18, 148, 0.945)100%), url(https://img.freepik.com/fotos-gratis/cofre-de-banco-estilo-grunge_1048-13937.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15rem;
+}
+#section-cofre img{
+    width: 20rem;
+    height: auto;
+    margin-top: 9rem;
+}
+#section-cofre h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+#section-cofre p {
+    margin: 10px;
+    margin-left: 10px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 800;
+}
+
+#rodape {
+    padding: 1em;
+    text-align: center;
+    background-color:#53227A;
+   font-size: 15px;
+}
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.footer-div a{
+text-decoration: none;
+color: white;
+}
+.footer-div a:hover{
+    color:#e9e513;
+    transition: 0.5s;
+}
